@@ -1,0 +1,11 @@
+{
+  "name": "@common/app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@common/validator": "^1.0.0",
+    "@common/read-input": "^1.0.0"
+  }
+}
