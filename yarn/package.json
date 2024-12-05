@@ -12,7 +12,8 @@
     "build:read-input": "yarn workspace @common/read-input run build",
     "build:validator": "yarn workspace @common/validator run build",
     "clean": "yarn workspaces foreach -A run clean",
-    "check-ts": "yarn workspaces foreach -A run check-ts"
+    "check-ts": "yarn workspaces foreach -A run check-ts",
+    "format": "yarn workspaces foreach -A run prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.4.2",
