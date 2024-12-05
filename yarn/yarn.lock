@@ -5,7 +5,7 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@common/read-input@workspace:packages/read-input":
+"@common/read-input@npm:^1.0.0, @common/read-input@workspace:packages/read-input":
   version: 0.0.0-use.local
   resolution: "@common/read-input@workspace:packages/read-input"
   dependencies:
@@ -13,7 +13,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@common/validator@workspace:packages/validator":
+"@common/validator@npm:^1.0.0, @common/validator@workspace:packages/validator":
   version: 0.0.0-use.local
   resolution: "@common/validator@workspace:packages/validator"
   languageName: unknown
@@ -2351,6 +2351,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vanilla-app@workspace:packages/vanilla-app"
   dependencies:
+    "@common/read-input": "npm:^1.0.0"
+    "@common/validator": "npm:^1.0.0"
     typescript: "npm:~5.6.2"
     vite: "npm:^6.0.1"
   languageName: unknown
