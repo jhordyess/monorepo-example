@@ -6,6 +6,8 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "cd packages/vanilla-app && yarn dev",
+    "start": "cd packages/vanilla-app && yarn preview",
     "build": "yarn workspaces foreach -A run build",
     "build:read-input": "yarn workspace @common/read-input run build",
     "build:validator": "yarn workspace @common/validator run build",
