@@ -1,0 +1,19 @@
+{
+  "name": "@common/read-input",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "clean": "rm -rf ./dist",
+    "check-ts": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
