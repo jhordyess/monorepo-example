@@ -1,7 +1,7 @@
 {
   "name": "@common/read-input",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "main": "dist/main.cjs",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
