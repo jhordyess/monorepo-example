@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check-ts": "tsc --noEmit"
   },
   "dependencies": {
     "@common/read-input": "^1.0.0",
